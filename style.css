@@ -1,0 +1,101 @@
+/* .main-grid-container {
+    width: auto;
+    height: auto;
+    text-align: center;
+   
+    display: flex;
+    justify-content: left;
+} */
+
+/* .header { 
+    width: 100%;
+justify-content: center;
+
+} */
+h1{
+    text-align: center;
+
+}
+.donutClicker{
+    text-align: center;
+}
+.navbar {
+    background-color: rgb(142, 182, 48);
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  padding: 5px;
+  margin-left: 20px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  
+
+}
+.body {
+    display: flex;
+    margin: 9px;
+    
+}
+
+.all-dropdown-content {
+    color: rgb(3, 3, 3);
+    font-family: 'Lucida Sans';
+    font-size: 19px;
+    cursor:pointer;
+    position:relative;
+    background-color:rgb(252, 248, 248);
+    
+    gap: 250px;
+    width: 300px;
+    height: 200px;
+   
+}
+.donut-button {
+    width: 500px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+    
+}
+.donut-count {
+    font-size: 35px; 
+    font-family: fantasy;
+}
+.donutClicker{
+    justify-content: right;
+}
+.aboutSection{
+    display:flex;
+    flex-direction:row;
+    height:50px;
+    width:100px;
+    align-items: center;
+    justify-content: right;
+    grid-gap: 50px;
+    padding-left:10px;
+    
+}
+.learnSection{
+    display:flex;
+    flex-direction:row;
+    height:50px;
+    width:100px;
+    align-items: center;
+    justify-content: left;
+    grid-gap: 50px;
+    padding-left:  20px;px;
+}
+.contactSection{
+    display:flex;
+    flex-direction:row;
+    height:50px;
+    width:100px;
+    align-items: center;
+    justify-content: left;
+    gap: 150px;
+    padding-left:  30px;
+}
