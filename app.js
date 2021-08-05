@@ -12,6 +12,7 @@ const autoClickerCount = document.querySelector('.autoClickerCount');
 const donutMultiplyButton = document.querySelector('.multiplierButton');
 const donutMultiplyCount = document.querySelector('.multiplierCount');
 const donutMultiplyCost = document.querySelector('.multiplierPrice');
+const resetButton = document.querySelector('.reset-game');
 
 const aboutUsButton = document.querySelector(".aboutSection");
 const aboutUsDrop = document.getElementById('aboutSectionContent');
@@ -23,6 +24,7 @@ const learnUsDrop = document.getElementById('learnSectionContent');
 donutMakerButton.addEventListener("click", () => {
     donutMaker.addDonut();
     donutCount.innerText = donutMaker.numDonuts;
+    
     // donutMultiplierEnable()
     // autoClickerEnable()
     }); 
@@ -51,6 +53,7 @@ autoClickerButton.addEventListener("click",()=>{
     
     donutCount.innerText = donutMaker.numDonuts;
     autoClickerCount.innerText = donutMaker.autoClickers;
+    
 
     
 });
@@ -72,6 +75,12 @@ setInterval(() =>{
     
     
 },1000);
+
+resetButton.addEventListener('click', resetGame);
+function resetGame(){
+    location.reload();
+}
+
 
 
 document.getElementsByClassName("addDonut").innerHTML=Math.round(addDonut);
